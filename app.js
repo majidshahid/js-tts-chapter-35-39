@@ -81,15 +81,31 @@
 
 // function palindrome(){
 //     var a = prompt("enter a word ");
-//     for (i=a.length-1;i>=0;i--){
-//         var b = a[i]
+//      var b = a.split("").reverse().join("");
+   
 //         if(a==b){
 //             console.log("ok")
 //         }else{
-//             console.log("not ok")
+//             console.log("not palindrome word")
 //         }
 //     }
   
     
-// }
+
 // palindrome()
+
+
+
+// function getLongestWord(word) {
+//     var longest = "";
+//     var split = word.split(" ");
+//     for (var i = 0; i < split.length; i++) {
+//         if (split[i].length > longest.length) {
+//             longest = split[i]
+//         }
+//     }
+//     return longest;
+
+// }
+
+// var result1 = getLongestWord("Web Development Tutorial")
